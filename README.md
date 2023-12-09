@@ -27,17 +27,21 @@ Gerekenler:
 
 -- main.c Dosyası
 
+-- Sifreleyeceginiz veya Sifresini Cozeceginiz .txt Dosyasi
+
 ### Şifreleme İçin:
 
-Adım 1:
+**Adım 1:**
 Main.C Dosyamızı DEV C++ ile Açıp F11 Tuşu İle Compile & Run Ediyoruz.
 
 <img src="./images/mainc.png">
 
-Adım 2:
+**Adım 2:**
 Şifreleme Yapmak İçin 1'İ Seçip Dosya Adlarımızı Giriyoruz.
 Örnekte Yapacağımız Üzere Verilerimiz İnput.txt de Olacağından Girdi Dosyası İnput.txt
-Şifrelenmiş Çıktıyı ise Encryptex.txt Olarak Oluşturmasını İstiyoruz.
+Şifrelenmiş Çıktıyı ise Encrypted.txt Olarak Oluşturmasını İstiyoruz.
+
+>_📄Dipnot: Dosyanınızın adının input.txt olması şart değil. Örneğin; elinizde deneme.txt diye bir dosya vardır, bunu main.c dosyasının olduğu klasöre atarsınız ve girdi dosyası kısmına deneme.txt yazıp o metin belgesini istediğiniz işleme sokabilirsiniz._
 
 <img src="./images/calisanprogramekrani.png">
 
