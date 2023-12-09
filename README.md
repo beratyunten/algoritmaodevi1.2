@@ -32,23 +32,23 @@ Gerekenler:
 Adım 1:
 Main.C Dosyamızı DEV C++ ile Açıp F11 Tuşu İle Compile & Run Ediyoruz.
 
-<img src="https://i.hizliresim.com/b3e4x6z.png">
+<img src="./images/mainc.png">
 
 Adım 2:
 Şifreleme Yapmak İçin 1'İ Seçip Dosya Adlarımızı Giriyoruz.
 Örnekte Yapacağımız Üzere Verilerimiz İnput.txt de Olacağından Girdi Dosyası İnput.txt
 Şifrelenmiş Çıktıyı ise Encryptex.txt Olarak Oluşturmasını İstiyoruz.
 
-<img src="https://i.hizliresim.com/spf36fk.png">
+<img src="./images/calisanprogramekrani.png">
 
 ### Girdi (Veri)
 
 Girilen İnput Yani Sifrelenecek Veri:
-![Sifrelenmiş Veri](https://i.hizliresim.com/rt0bg4i.png)
+<img src="./images/girenveri.png">
 
 
 ### Çıktı (Şifrelenmiş Veri)
 
 İşlem Sonucunda Oluşturulan Encrypted.txt Yani Şifrelenmiş Veri:
-![Sifrelenmiş Veri](https://i.hizliresim.com/fxd9337.png)
+<img src="./images/sifrelenmisveri.png">
 
