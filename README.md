@@ -7,11 +7,12 @@ Bu uygulama, verilen bir metni belirli bir anahtar değeri ile şifreleyen (Örn
 
 ## Şifreleme Algoritması
 
-Algoritma, her bir karakterin ASCII değerine dayanarak çalışır. Bir karakterin şifrelenmiş hali, karakterin ASCII değeri ve belirli bir anahtar değerinin toplamıdır. Anahtarımız (Sabit) ise 3'dür. Yani her bir karakter şifrelenirken kendinden sonraki 3. harfe denk getirilir. Şifre çözülürken de anahtarımız sabit olduğundan her karakter kendinden önceki 3.harfe denk getirilir. Şifreyi çözmek için ise şifrelenmiş karakterden anahtar değeri çıkartılarak orijinal karakter elde edilir. Uygulama yalnızca İngilizce alfabe üzerinde çalışmaktadır.
+Algoritma, her bir karakterin ASCII değerine dayanarak çalışır. Bir karakterin şifrelenmiş hali, karakterin ASCII değeri ve belirli bir anahtar değerinin toplamıdır. Anahtarımız (Sabit) ise 3'dür. Yani her bir karakter şifrelenirken kendinden sonraki 3. harfe denk getirilir. Şifre çözülürken de anahtarımız sabit olduğundan her karakter kendinden önceki 3.harfe denk getirilir. Şifreyi çözmek için ise şifrelenmiş karakterden anahtar değeri çıkartılarak orijinal karakter elde edilir. 
 
 ## Kullanım
 
-Uygulama iki temel işlemi gerçekleştirir: şifreleme ve şifre çözme. Anahtar değeri kullanıcı tarafından belirlenir ve her iki işlemde de aynı anahtar kullanılır. Biz anahtar değeri olarak 3'ü kullandık.
+Uygulama iki temel işlemi gerçekleştirir: şifreleme ve şifre çözme. Anahtar değeri kullanıcı tarafından belirlenir ve her iki işlemde de aynı anahtar kullanılır. Biz anahtar değeri olarak 3'ü kullandık. 
+>Dipnot: Uygulama Yalnızca İngilizce Alfabe Üzerinde Çalışmaktadır. Örneğin Türkçe Karakterde İçeren Bir Metin Dosyanımız Var İse Türkçe Karakterlere Karışmadan Sadece İngilizce Karakterler Üzerinde İşlem Yapar.
 
 ### Şifreleme
 Bu komut, herhangi bir `input.txt` dosyasındaki metnin içeriğini 3 birim ileri kaydırarak şifreler ve sonucu `encrypted.txt` dosyasına kaydeder.
