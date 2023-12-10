@@ -72,6 +72,7 @@ Artık Program Şifrelenmiş Verideki Şifreyi Çözebilir.
 ### Girdi (Şifreli Veri)
 
 Girilen Yani Şifreli Veri:
+
 <img src="./images/sifrelenmisveri.png">
 
 ### Çıktı (Şifresi Çözülmüş Veri)
