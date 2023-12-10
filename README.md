@@ -23,9 +23,9 @@ Bu komut, `encrypted.txt` dosyasındaki şifreli metni 3 birim geri kaydırarak 
 
 Gerekenler:
 
--- DEV C++
+-- DEV C++ (SourceForge Üzerinden İndirebilirsiniz.)
 
--- main.c Dosyası
+-- main.c Dosyası (Proje Üzerinden İndiriniz.)
 
 -- Sifreleyeceginiz veya Sifresini Cozeceginiz .txt Dosyasi
 
@@ -53,6 +53,28 @@ Girilen İnput Yani Sifrelenecek Veri:
 
 ### Çıktı (Şifrelenmiş Veri)
 
-İşlem Sonucunda Oluşturulan Encrypted.txt Yani Şifrelenmiş Veri:
+Şifreleme İşlemi Sonucunda Oluşturulan Encrypted.txt Yani Şifrelenmiş Veri:
 <img src="./images/sifrelenmisveri.png">
 
+### Şifreyi Çözmek İçin
+
+**Adım 1:**
+Main.C Dosyamızı DEV C++ ile Açıp F11 Tuşu İle Compile & Run Ediyoruz.
+
+**Adım 2:**
+Şifreli verinin şifresini çözmek için 2'yi seçiyoruz.
+Örneğimizde şifrelenmiş veri Encrypted.txt idi girdi dosyasına bunu giriyoruz.
+Çıktı Dosya adına ise decrypted.txt dedik. (Dosya adı hakkındaki dipnot burada da geçerli, istediğiniz dosyayı ve dosya adını girebilirsiniz.)
+Artık Program Şifrelenmiş Verideki Şifreyi Çözebilir.
+
+<img src="./images/calisanprogramekrani2.png">
+
+### Girdi (Şifreli Veri)
+
+Girilen Yani Şifreli Veri:
+<img src="./images/sifrelenmisveri.png">
+
+### Çıktı (Şifresi Çözülmüş Veri)
+
+Şifre Çözme İşlemi Sonucunda Oluştan decrypted.txt Yani Şifresi Çözülmüş Veri:
+<img src="./images/decrypted.png">
