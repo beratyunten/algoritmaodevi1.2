@@ -2,8 +2,8 @@
 
 # Şifreleme/Şifre Çözme Uygulaması
 
-Bu uygulama, verilen bir metni belirli bir anahtar değeri ile şifreleyen ve aynı anahtar değeri ile şifresini çözen bir şifreleme algoritmasını içerir.
-Şuan ki halinde şifreleme için sabit anahtar değeri '3'. Fakat bu sabit anahtar değeri isteğinize göre değiştirmekte özgürsünüz!
+Bu uygulama, verilen bir metni belirli bir anahtar değeri ile şifreleyen (Örneğin 5 Anahtar Değeri İçin Metindeki Her Bir Harfi 5 İleri Öteleyen) ve aynı anahtar değeri ile şifresini çözen bir şifreleme algoritmasını içerir.
+Şuan ki halinde şifreleme için sabit anahtar değeri '3'. Fakat bu sabit anahtar değeri isteğinize göre değiştirebilirsiniz.
 
 ## Şifreleme Algoritması
 
@@ -14,10 +14,10 @@ Algoritma, her bir karakterin ASCII değerine dayanarak çalışır. Bir karakte
 Uygulama iki temel işlemi gerçekleştirir: şifreleme ve şifre çözme. Anahtar değeri kullanıcı tarafından belirlenir ve her iki işlemde de aynı anahtar kullanılır. Biz anahtar değeri olarak 3'ü kullandık.
 
 ### Şifreleme
-Bu komut, `input.txt` dosyasındaki metni 3 birim kaydırarak şifreler ve sonucu `encrypted.txt` dosyasına kaydeder.
+Bu komut, herhangi bir `input.txt` dosyasındaki metnin içeriğini 3 birim ileri kaydırarak şifreler ve sonucu `encrypted.txt` dosyasına kaydeder.
 
 ### Şifre Çözme
-Bu komut, `encrypted.txt` dosyasındaki şifreli metni 3 birim geri kaydırarak çözer ve sonucu `decrypted.txt` dosyasına kaydeder.
+Bu komut, `encrypted.txt` dosyasındaki şifreli metnin içeriğini 3 birim geri kaydırarak çözer ve sonucu `decrypted.txt` dosyasına kaydeder.
 
 ## Örnek Kullanım
 
